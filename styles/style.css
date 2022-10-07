@@ -1,0 +1,49 @@
+body { 
+    background-color: rgb(29, 29, 29); 
+    font-family: "Comic Sans MS";
+}
+
+* { color: whitesmoke; font-weight: 600;}
+
+a { 
+    text-decoration: none; 
+    color: yellow;
+    font-size: 2rem;
+}
+
+.deck {
+    background-color: rgb(7, 68, 68);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.deck-bg{
+    background-color: rgb(7, 68, 68);
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 12px;
+    margin-left: 12px;
+}
+
+.deck2 > p {
+    color: white;
+}
+
+.card {
+    width: 80px;
+}
+.card:hover { opacity: 0.9; }
+
+
+.jugador-gana {
+    background-color: rgb(21, 126, 43);
+
+}
+
+.jugador-pierde {
+    background-color: rgb(116, 10, 10);
+}
+
+.jugador-empate {
+    background-color: rgb(124, 124, 124);
+}
